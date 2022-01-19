@@ -32,6 +32,7 @@
   font-weight: 600;
   text-transform: uppercase;
   font-size: 17px;
+  font-family: "Poppins" !important;
 }
 
 .myCarousel h4 {
@@ -41,6 +42,7 @@
   font-weight: 500;
   color: #787878;
   font-size: 14px;
+  font-family: "Poppins" !important;
 }
 
 .myCarousel p {
@@ -50,7 +52,8 @@
   font-size: 15px;
   font-family: sans-serif;
   max-height: 67px;
-  text-align: justify;
+
+  font-family: "Poppins" !important;
 }
 
 .myCarousel p:before {
@@ -59,7 +62,6 @@
   font-size: 26px;
   font-family: monospace;
   font-weight: 100;
-  text-align: justify;
 }
 
 .myCarousel p:after {

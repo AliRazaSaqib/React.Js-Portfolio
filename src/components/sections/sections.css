@@ -109,7 +109,7 @@
 }
 
 .testinonials img {
-  width: 650px;
+  width: 600px;
 }
 
 @media (max-width: 1440px) {
@@ -125,6 +125,9 @@
 
 @media (max-width: 1200px) {
   .services img {
+    width: 400px;
+  }
+  .testinonials img {
     width: 400px;
   }
 }
@@ -151,10 +154,30 @@
   .latestWork {
     font-size: 1.5rem !important;
   }
+
+  .feedback {
+    font-size: 1rem !important;
+  }
+
+  .customerSays {
+    font-size: 1.5rem !important;
+  }
+  .testimonial-right {
+    max-width: 410px !important;
+  }
+  .testinonials img {
+    width: 370px;
+  }
 }
 
 @media (max-width: 576px) {
   .services img {
+    width: 100%;
+  }
+  .testinonials img {
+    width: 100%;
+  }
+  .testimonial-right {
     width: 100%;
   }
 }

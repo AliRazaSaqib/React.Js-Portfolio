@@ -119,7 +119,9 @@
 .banner_container img {
   width: 650px;
 }
-
+.name {
+  color: #f02098 !important;
+}
 @media (max-width: 1440px) {
   .banner_container {
     padding: 128px 16px 128px 16px;
