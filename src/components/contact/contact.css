@@ -1,0 +1,87 @@
+/** @format */
+.contact-wraper {
+  margin-top: 34px;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.contact-form {
+  align-items: unset !important;
+}
+
+.contact .icon {
+  width: 2em;
+  height: 2em;
+}
+.contact .call {
+  font-size: 1.5rem !important;
+  font-weight: 500 !important;
+  font-family: "Poppins" !important;
+  color: #f02098;
+}
+
+.contact .phone {
+  font-size: 2rem !important;
+  font-weight: 500 !important;
+  font-family: "Poppins" !important;
+}
+
+.contact-wraper .contact:not(:first-child) {
+  margin-top: 44px;
+}
+
+.contact-btn {
+  background-color: #f02098 !important;
+  font-size: 1.5rem !important;
+  font-weight: 500 !important;
+  font-family: "Poppins" !important;
+  color: white !important;
+  width: 97% !important;
+}
+.contact-btn:hover {
+  background: linear-gradient(to bottom, #f02098 0%, #15315e 100%);
+}
+
+.contact-right {
+  max-width: 550px;
+}
+
+.textArea {
+  height: 120px !important;
+  width: 98%;
+  background-color: rgb(249, 249, 249);
+  overflow: hidden;
+  border-color: lightgray;
+  border-radius: 4px;
+  padding: 18.5px 4px;
+  font-size: 1rem !important;
+}
+
+@media (max-width: 1200px) {
+  .contact-right {
+    max-width: 480px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .contact-right {
+    max-width: 460px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-right {
+    margin-top: 34px;
+  }
+  .MuiGrid-spacing-xs-2 > .MuiGrid-item {
+    width: 100% !important;
+  }
+  .MuiGrid-grid-xs-12 {
+    max-width: unset !important;
+  }
+  .contact-btn {
+    width: 100% !important;
+  }
+}

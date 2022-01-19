@@ -7,6 +7,9 @@ import Portfolio from "./components/sections/Portfolio";
 import TestinonialsComponent from "./components/sections/feedback/TestinonialsComponent";
 import WhatsAppWidget from "react-whatsapp-widget";
 import "react-whatsapp-widget/dist/index.css";
+import CompletedProjects from "./components/sections/CompletedProjects";
+import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -22,7 +25,10 @@ function App() {
       <div>
         <Services />
         <Portfolio />
+        <CompletedProjects />
         <TestinonialsComponent />
+        <Contact />
+        <Footer />
       </div>
       <WhatsAppWidget phoneNumber="+923077534255" />
     </div>

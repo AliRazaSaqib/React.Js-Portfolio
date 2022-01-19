@@ -89,6 +89,7 @@
 
 .banner-left {
   max-width: 600px;
+  z-index: 999;
 }
 
 .heading {
@@ -165,5 +166,9 @@
 
   .heading {
     font-size: 2rem !important;
+  }
+  .circle2 {
+    right: 100px;
+    top: 400px;
   }
 }

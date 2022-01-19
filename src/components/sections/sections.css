@@ -105,11 +105,134 @@
 }
 .testinonials {
   padding: 64px 100px;
-  background-color: #f9f9f9;
 }
 
 .testinonials img {
   width: 600px;
+}
+
+/* completed projects */
+.projects {
+  padding: 64px 100px;
+  background-color: #f9f9f9;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  margin-top: 34px;
+  flex-wrap: wrap;
+  row-gap: 34px;
+  max-width: 500px;
+}
+
+.completeProjects {
+  justify-content: space-between;
+}
+
+.countdown .list {
+  max-width: 50%;
+  text-align: center;
+  padding: 16px 50px;
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "A Love of Thunder";
+}
+
+.countdown .list .noOfProjects {
+  color: #f02098;
+}
+
+.countdown .list:first-child {
+  border-right: 2px solid rgba(57, 57, 64, 0.1);
+}
+
+.countdown .list:nth-child(3) {
+  border-right: 2px solid rgba(57, 57, 64, 0.1);
+}
+
+.showCase {
+  animation: Color 4s linear infinite;
+  -webkit-animation: Color 4s ease-in-out infinite;
+  text-shadow: 10px 10px #f0f0f0;
+}
+
+@keyframes Color {
+  0% {
+    color: #f02098;
+  }
+
+  20% {
+    color: #15315e;
+  }
+
+  40% {
+    color: #f7d78e;
+  }
+
+  60% {
+    color: #20267f;
+  }
+
+  80% {
+    color: #ed5565;
+  }
+
+  100% {
+    color: #ac92ec;
+  }
+}
+
+@-moz-keyframes Color {
+  0% {
+    color: #f02098;
+  }
+
+  20% {
+    color: #15315e;
+  }
+
+  40% {
+    color: #f7d78e;
+  }
+
+  60% {
+    color: #20267f;
+  }
+
+  80% {
+    color: #ed5565;
+  }
+
+  100% {
+    color: #ac92ec;
+  }
+}
+
+@-webkit-keyframes Color {
+  0% {
+    color: #f02098;
+  }
+
+  20% {
+    color: #15315e;
+  }
+
+  40% {
+    color: #f7d78e;
+  }
+
+  60% {
+    color: #20267f;
+  }
+
+  80% {
+    color: #ed5565;
+  }
+
+  100% {
+    color: #ac92ec;
+  }
 }
 
 @media (max-width: 1440px) {
@@ -118,7 +241,8 @@
   }
   .services-wraper,
   .portfolio,
-  .testinonials {
+  .testinonials,
+  .projects {
     padding: 64px 16px;
   }
 }
@@ -167,6 +291,16 @@
   }
   .testinonials img {
     width: 370px;
+  }
+  .countdown .list:first-child {
+    border-right: unset;
+  }
+
+  .countdown .list:nth-child(3) {
+    border-right: unset;
+  }
+  .countdown {
+    justify-content: center !important;
   }
 }
 

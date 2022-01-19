@@ -64,11 +64,13 @@
 
 @media (max-width: 992px) {
   /*Mobile View */
+  .menu-icon {
+    color: #f02098;
+  }
 
   .MuiSvgIcon-root {
     width: 1.5em !important;
     height: 1.5em !important;
-    color: #f02098;
   }
 
   .logo-nav {
@@ -97,6 +99,7 @@
     flex-direction: column;
     list-style-type: none;
     grid-gap: 0px;
+    height: 100vh;
   }
   .nav-options.active {
     background: #fff;
