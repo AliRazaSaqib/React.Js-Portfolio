@@ -1,38 +1,198 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 .App {
+  font-family: Montserrat;
+  font-weight: 600;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  transition: all 0.5s ease-in-out;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.sticky-nav a {
+  color: black;
+}
+
+.option:hover,
+.option a:hover {
+  color: #f02098;
+  font-weight: bold;
+  margin-top: -4px;
+  transition: all 0.2s ease-in-out;
+}
+
+/* for banner */
+.main-wraper {
+  overflow: hidden;
+}
+.banner-bg {
+  background-image: url("../public/assets/bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 103vw;
+}
+
+.MuiGrid-spacing-xs-10 {
+  width: 100% !important;
+  margin: 0 !important;
+  margin-bottom: -34px !important;
+}
+
+.MuiGrid-root {
+  text-align: initial;
+}
+
+.proton {
+  width: 80px;
+  height: 80px;
+  background-color: deepskyblue;
+  border-radius: 50%;
+  position: relative;
+}
+
+.electron {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  animation: rotation 3s infinite linear;
+  border-radius: 50%;
+  padding: 100px;
+  border: 1px solid silver;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.electron::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: deeppink;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  border-radius: 50%;
+  margin: 51px;
+}
+
+@keyframes rotation {
+  0% {
+    transform: translate(-50%, -50%) rotate(-360deg);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* @media (max-width: 1440px) {
+  .main_container {
+    padding: 128px 32px 128px 32px;
   }
-  to {
-    transform: rotate(360deg);
+  .portfolio,
+  .testinonials {
+    padding: 64px 32px !important;
+  }
+  .main_container img,
+  .services img,
+  .testinonials img {
+    width: 500px !important;
+  }
+  .services-wraper {
+    padding: 64px 32px !important;
   }
 }
+
+@media (max-width: 1200px) {
+  .main_container img,
+  .testinonials img .services img {
+    width: 400px !important;
+  }
+  .MuiTypography-body1 {
+    font-size: 4rem !important;
+    max-width: 480px;
+  }
+  .tex-color {
+    font-size: 4rem !important;
+    max-width: 480px;
+  }
+  .samples {
+    font-size: 3rem !important;
+  }
+  .inovative {
+    font-size: 3rem !important;
+  }
+
+  .typo {
+    font-size: 2rem !important;
+  }
+  .services-sec {
+    max-width: 500px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .MuiGrid-container {
+    align-items: center;
+    justify-content: center;
+  }
+  .services {
+    justify-content: center !important;
+  }
+  .main_container {
+    padding: 128px 12px 128px 12px !important;
+  }
+  .portfolio,
+  .testinonials {
+    padding: 64px 12px !important;
+  }
+  .services-wraper {
+    padding: 64px 12px !important;
+  }
+  @keyframes jump {
+    0% {
+      bottom: 100px;
+    }
+    100% {
+      bottom: 240px;
+    }
+  }
+  .services-sec {
+    max-width: 470px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .main_container img,
+  .testinonials img .services img {
+    width: 100% !important;
+  }
+  .MuiTypography-body1 {
+    font-size: 2.5rem !important;
+    max-width: 300px;
+  }
+  .inovative {
+    font-size: 2rem !important;
+    font-weight: 500 !important;
+  }
+  .samples {
+    font-size: 2rem !important;
+  }
+
+  .services-sec {
+    max-width: 300px !important;
+  }
+
+  .typo {
+    font-size: 1.2rem !important;
+  }
+  .circle2 {
+    right: 20px;
+  }
+} */

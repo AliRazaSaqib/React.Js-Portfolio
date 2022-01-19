@@ -1,0 +1,160 @@
+/** @format */
+.services-wraper {
+  background-color: #f9f9f9;
+  padding: 64px 100px;
+}
+.services {
+  justify-content: space-between;
+  align-items: center;
+}
+.services img {
+  width: 650px;
+}
+
+.service-right {
+  max-width: 550px;
+}
+
+.smallText,
+.feedback {
+  color: #f02098;
+  padding-bottom: 12px;
+  font-size: 2rem !important;
+  font-weight: 500 !important;
+  font-family: "Poppins" !important;
+}
+
+.customerSays {
+  color: black;
+}
+.inovative,
+.customerSays {
+  font-size: 2.5rem !important;
+  font-weight: 500 !important;
+  font-family: "A Love of Thunder" !important;
+}
+
+.developer {
+  color: rgb(133, 129, 129);
+  padding-top: 24px;
+  font-family: "Poppins" !important;
+}
+
+.services-sec ul {
+  list-style-type: none;
+  padding-top: 12px;
+  color: #f02098;
+  font-family: "Poppins" !important;
+}
+.services-sec ul li:not(:first-child) {
+  padding-top: 12px;
+}
+
+.services-sec ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 200px;
+}
+
+.services-sec ul li:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.arrow {
+  animation: blink 0.3s alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.5;
+    margin-right: 10px;
+  }
+}
+
+/* portfolio */
+.portfolio {
+  padding: 64px 100px;
+}
+.myPortfolio {
+  color: #f02098;
+  font-size: 2rem !important;
+  font-weight: 500 !important;
+  font-family: "Poppins" !important;
+}
+
+.latestWork {
+  font-size: 2.5rem !important;
+  font-weight: 500 !important;
+  font-family: "A Love of Thunder" !important;
+}
+
+/* Testimonials */
+.testinonials-wraper {
+  align-items: center;
+  justify-content: space-between;
+}
+.testimonial-right {
+  max-width: 550px !important;
+}
+.testinonials {
+  padding: 64px 100px;
+  background-color: #f9f9f9;
+}
+
+.testinonials img {
+  width: 650px;
+}
+
+@media (max-width: 1440px) {
+  .services img {
+    width: 500px;
+  }
+  .services-wraper,
+  .portfolio,
+  .testinonials {
+    padding: 64px 16px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .services img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .smallText {
+    font-size: 1rem !important;
+  }
+
+  .inovative {
+    font-size: 1.5rem !important;
+  }
+  .service-right {
+    max-width: 410px;
+  }
+  .services img {
+    width: 370px;
+  }
+
+  .myPortfolio {
+    font-size: 1rem !important;
+  }
+
+  .latestWork {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .services img {
+    width: 100%;
+  }
+}

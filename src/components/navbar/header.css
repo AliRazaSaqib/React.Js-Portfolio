@@ -1,0 +1,130 @@
+/**
+ * /*Desktop View
+ *
+ * @format
+ */
+
+.navbar {
+  transition: all 0.5s ease-in-out;
+  display: flex;
+  background: transparent;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  z-index: 999;
+  cursor: pointer;
+  position: absolute;
+  padding: 20px 0;
+}
+
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  background: #fff;
+  box-shadow: 0 2px 35px 0 rgb(0 0 0 / 10%);
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.logo-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 100px;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-container img {
+  height: 40px;
+}
+.nav-options {
+  padding-left: 25px;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 50px;
+  list-style-type: none;
+  font-family: "Poppins" !important;
+  font-weight: 500 !important;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+@media (max-width: 1440px) {
+  .logo-nav {
+    padding: 0 16px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  /*Mobile View */
+
+  .MuiSvgIcon-root {
+    width: 1.5em !important;
+    height: 1.5em !important;
+    color: #f02098;
+  }
+
+  .logo-nav {
+    padding: 0 18px;
+  }
+
+  .mobile-menu {
+    padding-right: 18px;
+  }
+
+  .header {
+    padding: 0px 10px;
+  }
+  .logo {
+    width: 24px;
+    height: 24px;
+  }
+  .nav-options {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 76px;
+    left: -100%;
+    opacity: 0;
+    transition: all 1s ease;
+    flex-direction: column;
+    list-style-type: none;
+    grid-gap: 0px;
+  }
+  .nav-options.active {
+    background: #fff;
+
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    align-content: center;
+    padding-left: 0px;
+    color: black !important;
+  }
+
+  .option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8vw;
+    margin-right: auto;
+    padding-left: 26px;
+    padding: 16px;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+
+  .navbar {
+    background-color: #fff;
+  }
+}
