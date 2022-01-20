@@ -87,6 +87,10 @@
   margin-bottom: 10px !important;
 }
 
+._1fOYS {
+  z-index: 2 !important;
+}
+
 .banner-left {
   max-width: 600px;
   z-index: 1;

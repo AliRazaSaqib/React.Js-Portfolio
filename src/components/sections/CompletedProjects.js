@@ -1,6 +1,6 @@
 /** @format */
 
-import { Typography, Grid, Paper } from "@material-ui/core";
+import { Typography, Grid } from "@material-ui/core";
 import React from "react";
 import "../../components/sections/sections.css";
 function CompletedProjects() {

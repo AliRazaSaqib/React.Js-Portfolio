@@ -149,7 +149,7 @@ function ContactForm() {
           </Form>
         )}
       />
-      <Button onClick={handleClickOpen}>Show</Button>
+
       {/* show alert */}
       {spin ? (
         <Loader />
