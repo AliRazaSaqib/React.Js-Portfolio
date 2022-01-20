@@ -5,6 +5,7 @@ import { Carousel } from "react-responsive-carousel";
 import "./testimonial.css";
 import { Typography } from "@material-ui/core";
 import "../../../App.css";
+
 function Testinonials() {
   return (
     <div className="main-root">

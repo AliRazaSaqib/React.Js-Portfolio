@@ -36,7 +36,9 @@ function Banner() {
             <Typography className="typo">
               Expert In <span className="name" ref={textRef}></span>
             </Typography>
-            <Button className="hire-btn">Hire Me</Button>
+            <Button className="hire-btn">
+              <a href="#contact">Contact</a>
+            </Button>
           </Grid>
           <Grid>
             <img src="/assets/banner-img.svg" />

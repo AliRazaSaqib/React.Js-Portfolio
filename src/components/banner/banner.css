@@ -117,6 +117,10 @@
   font-weight: 500 !important;
 }
 
+.hire-btn a {
+  color: white !important;
+}
+
 .hire-btn:hover {
   background: linear-gradient(to bottom, #f02098 0%, #15315e 100%);
 }
