@@ -48,7 +48,10 @@ const Header = () => {
             <a href="#testinonials">Testimonials</a>
           </li>
           <li className="option" onClick={closeMobileMenu}>
-            <a href="#">Contact</a>
+            <a href="#about">About</a>
+          </li>
+          <li className="option" onClick={closeMobileMenu}>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>

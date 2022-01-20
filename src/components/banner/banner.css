@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   justify-content: space-between;
-  padding: 128px 100px 128px 100px;
+  padding: 128px 100px 140px 100px;
 }
 /* bubbles for banner */
 .circle1 {
@@ -83,8 +83,8 @@
   position: fixed !important;
   background-color: #25d366 !important;
   color: white !important;
-  height: 56px !important;
-  width: 56px !important;
+  margin-right: unset !important;
+  margin-bottom: 10px !important;
 }
 
 .banner-left {
@@ -125,7 +125,7 @@
 }
 @media (max-width: 1440px) {
   .banner_container {
-    padding: 128px 16px 128px 16px;
+    padding: 128px 16px 140px 16px;
   }
   .banner_container img {
     width: 500px;

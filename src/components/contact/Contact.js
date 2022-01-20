@@ -1,33 +1,16 @@
 /** @format */
 
-import { Typography, Grid, Button, TextareaAutosize } from "@material-ui/core";
-import React from "react";
-import { Formik, Field, Form } from "formik";
-import * as Yup from "yup";
-import { TextField } from "formik-material-ui";
+import { Typography, Grid } from "@material-ui/core";
 import "../../components/contact/contact.css";
 import "../../components/sections/sections.css";
 import PhoneIcon from "@material-ui/icons/Phone";
 import AlternateEmailIcon from "@material-ui/icons/AlternateEmail";
 import LanguageIcon from "@material-ui/icons/Language";
+import ContactForm from "./ContactForm";
 
 function Contact() {
-  const initialValues = {
-    name: "",
-    subject: "",
-    email: "",
-    message: "",
-  };
-  const validationSchema = Yup.object().shape({
-    name: Yup.string().required("Name required!"),
-    email: Yup.string().required("Email required!"),
-    subject: Yup.string().required("Subject required!"),
-    message: Yup.string().required("Message Required!"),
-  });
-
-  const onSubmit = async (values, { setSubmitting }) => {};
   return (
-    <div className="projects">
+    <div className="projects" id="contact">
       <Grid
         container
         spacing={10}
@@ -73,80 +56,7 @@ function Contact() {
             Let Me Know Here Know Here
           </Typography>
 
-          <div>
-            <Formik
-              initialValues={initialValues}
-              validationSchema={validationSchema}
-              onSubmit={onSubmit}
-              render={({ submitForm, isSubmitting, values }) => (
-                <Form noValidate className="form">
-                  <Grid
-                    container
-                    item
-                    sm={12}
-                    xs={12}
-                    md={12}
-                    lg={12}
-                    xlg={12}
-                    spacing={2}
-                  >
-                    <Grid item sm={12} xs={12} md={6} lg={6} xlg={6}>
-                      <Field
-                        type="text"
-                        label="Your good name"
-                        name="name"
-                        variant="outlined"
-                        fullWidth
-                        component={TextField}
-                      />
-                    </Grid>
-                    <Grid item sm={12} xs={12} md={6} lg={6} xlg={6}>
-                      <Field
-                        type="email"
-                        label="Email address"
-                        name="email"
-                        variant="outlined"
-                        fullWidth
-                        component={TextField}
-                      />
-                    </Grid>
-
-                    <Grid item sm={12} xs={12} md={12} lg={12} xlg={12}>
-                      <Field
-                        type="text"
-                        label="Subject"
-                        name="subject"
-                        variant="outlined"
-                        fullWidth
-                        component={TextField}
-                      />
-                    </Grid>
-                    <Grid item sm={12} xs={12} md={12} lg={12} xlg={12}>
-                      <Field
-                        type="text"
-                        label="Message"
-                        name="message"
-                        variant="outlined"
-                        fullWidth
-                        component={TextareaAutosize}
-                        className="textArea"
-                      />
-                    </Grid>
-                  </Grid>
-                  <Button
-                    className="contact-btn"
-                    variant="contained"
-                    type="submit"
-                    fullWidth
-                    disabled={isSubmitting}
-                    style={{ marginTop: "16px" }}
-                  >
-                    Submit
-                  </Button>
-                </Form>
-              )}
-            />
-          </div>
+          <ContactForm />
         </Grid>
       </Grid>
     </div>

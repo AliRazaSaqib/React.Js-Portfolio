@@ -5,7 +5,7 @@ import React from "react";
 import "../../components/sections/sections.css";
 function CompletedProjects() {
   return (
-    <div className="projects">
+    <div className="projects" id="about">
       <Grid
         container
         spacing={10}
