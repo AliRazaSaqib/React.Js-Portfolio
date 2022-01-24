@@ -5,6 +5,7 @@ import React from "react";
 import "../../components/banner/banner.css";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
+import banner from "../../assets/bannerImage.svg";
 
 function Banner() {
   const textRef = useRef();
@@ -41,9 +42,25 @@ function Banner() {
             </Button>
           </Grid>
           <Grid>
-            <img src="/assets/banner-img.svg" />
+            <img src={banner} />
           </Grid>
         </Grid>
+      </div>
+
+      <div className="sidebar-social-icons">
+        <a
+          href="https://www.facebook.com/profile.php?id=100006145513818&_rdc=1&_rdr"
+          className="fa fa-facebook"
+        ></a>
+        <a
+          href="https://twitter.com/AliRaza55795782"
+          className="fa fa-twitter"
+        ></a>
+        <a href="https://www.incomebomb.com/" className="fa fa-globe"></a>
+        <a
+          href="https://www.linkedin.com/in/ali-raza-7689901a7/"
+          className="fa fa-linkedin"
+        ></a>
       </div>
     </div>
   );

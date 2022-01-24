@@ -47,7 +47,7 @@ function ContactForm() {
     message: Yup.string().min(10, "Too Short!").required("Required"),
   });
 
-  const onSubmit = async (values, { setSubmitting }) => {
+  const onSubmit = async (values, { setSubmitting, resetForm }) => {
     try {
       //   for sending email
       setSpin(true);
@@ -71,6 +71,8 @@ function ContactForm() {
             console.log(error.text);
           }
         );
+
+      resetForm();
     } catch (error) {
       console.log("Error", error);
     }

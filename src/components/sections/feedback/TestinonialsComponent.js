@@ -6,6 +6,7 @@ import Testinonials from "./Testinonials";
 import "../../../components/sections/sections.css";
 import Roll from "react-reveal/Roll";
 import "../../../App.css";
+import testimonail from "../../../assets/testimonail.svg";
 
 function TestinonialsComponent() {
   return (
@@ -17,7 +18,7 @@ function TestinonialsComponent() {
           className="grid-container testinonials-wraper"
         >
           <Grid>
-            <img src="/assets/testimonail.svg" alt="not found" />
+            <img src={testimonail} alt="not found" />
           </Grid>
           <Grid className="testimonial-right">
             <Testinonials />

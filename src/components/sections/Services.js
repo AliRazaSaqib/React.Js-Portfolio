@@ -5,6 +5,7 @@ import { Grid, Typography } from "@material-ui/core";
 import Fade from "react-reveal/Fade";
 import "./sections.css";
 import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
+import services from "../../assets/services.png";
 
 const Services = () => {
   return (
@@ -12,7 +13,7 @@ const Services = () => {
       <Fade left>
         <Grid container spacing={10} className="grid-container services">
           <Grid>
-            <img src="/assets/services.png" />
+            <img src={services} />
           </Grid>
           <Grid className="services-sec service-right">
             <Typography className="smallText" variant="h6">

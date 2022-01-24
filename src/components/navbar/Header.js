@@ -6,6 +6,7 @@ import CloseIcon from "@material-ui/icons/Close";
 
 import "./header.css";
 import "../../App.css";
+import logo from "../../assets/logo.svg";
 
 const Header = () => {
   const [click, setClick] = useState(false);
@@ -31,7 +32,7 @@ const Header = () => {
       <div className="logo-nav">
         <div className="logo-container">
           <a href="#">
-            <img src="/assets/logo.svg" alt="not found" />
+            <img src={logo} alt="not found" />
           </a>
         </div>
         <ul className={click ? "nav-options active" : "nav-options"}>

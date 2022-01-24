@@ -4,6 +4,7 @@ import { Typography, Grid } from "@material-ui/core";
 import React from "react";
 import "../../components/sections/sections.css";
 import Roll from "react-reveal/Roll";
+import facts from "../../assets/facts.svg";
 function CompletedProjects() {
   return (
     <div className="projects" id="about">
@@ -47,7 +48,7 @@ function CompletedProjects() {
             </div>
           </Grid>
           <Grid>
-            <img src="/assets/facts.svg" />
+            <img src={facts} />
           </Grid>
         </Grid>
       </Roll>

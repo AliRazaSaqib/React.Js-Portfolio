@@ -2,66 +2,77 @@
 
 import React from "react";
 import { Carousel } from "..";
+import blurbgeek from "../../../assets/portfolio/blurbgeek.PNG";
+import resturant from "../../../assets/portfolio/resturant.png";
+import template from "../../../assets/portfolio/template.PNG";
+import veta from "../../../assets/portfolio/veta-music.PNG";
+import callCenter from "../../../assets/portfolio/call-center.png";
+import fishkeeping from "../../../assets/portfolio/fishkeeping.PNG";
+import incomebomb from "../../../assets/portfolio/incomebomb.PNG";
+import perPortfolio from "../../../assets/portfolio/perPortfolio.png";
+import Portfolio1 from "../../../assets/portfolio/portfolio-1.png";
+import Portfolio2 from "../../../assets/portfolio/portfolio-2.png";
 
 function CarouselImages() {
   const data = [
     {
-      image: "/assets/portfolio/blurbgeek.png",
+      image: `${blurbgeek}`,
+
       caption: `<div>
         Blog Wesbite<br/>
       </div>`,
     },
     {
-      image: "/assets/portfolio/resturant.png",
+      image: `${resturant}`,
       caption: `<div>
         Resturant Website<br/>
       </div>`,
     },
 
     {
-      image: "/assets/portfolio/template.png",
+      image: `${template}`,
       caption: `<div>
         Portfolio Webbsite<br/>
       </div>`,
     },
     {
-      image: "/assets/portfolio/veta-music.png",
+      image: `${veta}`,
       caption: `<div>
        Veta Music Application<br/>
       </div>`,
     },
     {
-      image: "/assets/portfolio/call-center.png",
+      image: `${callCenter}`,
       caption: `<div>
       Portfolio Webbsite<br/>
       </div>`,
     },
     {
-      image: "/assets/portfolio/fishkeeping.png",
+      image: `${fishkeeping}`,
       caption: `<div>
         Blog Website<br/>
       </div>`,
     },
     {
-      image: "/assets/portfolio/incomebomb.png",
+      image: `${incomebomb}`,
       caption: `<div>
       Portfolio Webbsite<br/>
       </div>`,
     },
     {
-      image: "/assets/portfolio/perPortfolio.png",
+      image: `${perPortfolio}`,
       caption: `<div>
       Portfolio Webbsite<br/>
       </div>`,
     },
     {
-      image: "/assets/portfolio/portfolio-1.png",
+      image: `${Portfolio1}`,
       caption: `<div>
       Portfolio Webbsite<br/>
       </div>`,
     },
     {
-      image: "/assets/portfolio/portfolio-2.png",
+      image: `${Portfolio2}`,
       caption: `<div>
       Portfolio Webbsite<br/>
       </div>`,
