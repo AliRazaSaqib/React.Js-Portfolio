@@ -13,7 +13,7 @@ function Banner() {
     init(textRef.current, {
       showCursor: true,
       backSpeed: 40,
-      backDelay: 1000,
+      backDelay: 6000,
       strings: ["Web Development", "React", "HTML", "CSS", "JS", "Bootstrap"],
     });
   }, []);

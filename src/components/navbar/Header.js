@@ -3,7 +3,6 @@
 import React, { useState, useEffect } from "react";
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
-
 import "./header.css";
 import "../../App.css";
 import logo from "../../assets/logo.svg";

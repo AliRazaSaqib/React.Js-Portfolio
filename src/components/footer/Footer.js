@@ -1,7 +1,7 @@
 /** @format */
 
 import React from "react";
-import { AppBar, Toolbar, Typography, Grid, Paper } from "@material-ui/core";
+import { Typography, Grid, Paper } from "@material-ui/core";
 import "../../components/footer/footer.css";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import TwitterIcon from "@material-ui/icons/Twitter";
@@ -49,7 +49,7 @@ const Footer = () => (
         <Grid item sm={6} xs={12} md={6} lg={6} clg={6} className="para-grid">
           <Typography className="paragrapgh">
             Made with love by Ali Raza <br />
-            <span>© 2020 - ALL RIGHTS RESERVED</span>
+            <span>© 2022 - ALL RIGHTS RESERVED</span>
           </Typography>
         </Grid>
       </Grid>
