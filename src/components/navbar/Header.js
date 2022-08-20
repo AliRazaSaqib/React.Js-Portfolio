@@ -11,6 +11,7 @@ const Header = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
+  const [highlightDiv, setHighlightDiv] = useState(false);
 
   const [stickyClass, setStickyClass] = useState("");
 
