@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/React.Js-Portfolio/static/css/main.7c522f6b.css",
+    "main.js": "/React.Js-Portfolio/static/js/main.05731178.js",
+    "static/js/787.749b4a44.chunk.js": "/React.Js-Portfolio/static/js/787.749b4a44.chunk.js",
+    "static/media/portfolio-2.png": "/React.Js-Portfolio/static/media/portfolio-2.db46d3cb811ca10bfbc6.png",
+    "static/media/blurbgeek.PNG": "/React.Js-Portfolio/static/media/blurbgeek.c66ce2850b50b98fc8e7.PNG",
+    "static/media/fishkeeping.PNG": "/React.Js-Portfolio/static/media/fishkeeping.3331621172f1d434b76b.PNG",
+    "static/media/call-center.png": "/React.Js-Portfolio/static/media/call-center.c7cf10eb62b9e316b469.png",
+    "static/media/resturant.png": "/React.Js-Portfolio/static/media/resturant.5dff7a23c8ea73871304.png",
+    "static/media/perPortfolio.png": "/React.Js-Portfolio/static/media/perPortfolio.9d92744c83c728834dfa.png",
+    "static/media/bannerImage.svg": "/React.Js-Portfolio/static/media/bannerImage.62c1a7322476cb9fb21c9d5e259406a6.svg",
+    "static/media/template.PNG": "/React.Js-Portfolio/static/media/template.d181ef341a1c8c59f9d7.PNG",
+    "static/media/services.png": "/React.Js-Portfolio/static/media/services.57a50ce05a710b2b7c9b.png",
+    "static/media/veta-music.PNG": "/React.Js-Portfolio/static/media/veta-music.5b9ff03889573bb7f9cc.PNG",
+    "static/media/portfolio-1.png": "/React.Js-Portfolio/static/media/portfolio-1.d81639d9d3f8ee29fa7a.png",
+    "static/media/testimonail.svg": "/React.Js-Portfolio/static/media/testimonail.47fd458ebacca7a649185bce9cfc05cf.svg",
+    "static/media/facts.svg": "/React.Js-Portfolio/static/media/facts.48f98e6c4c6733453019a0400d4892a4.svg",
+    "static/media/incomebomb.PNG": "/React.Js-Portfolio/static/media/incomebomb.9b2e9bd18824751333c7.PNG",
+    "static/media/bg.svg": "/React.Js-Portfolio/static/media/bg.3788b564b60776ddcebb.svg",
+    "static/media/logo.svg": "/React.Js-Portfolio/static/media/logo.15bc0384aee54f697ce4e7c1b0056d9d.svg",
+    "index.html": "/React.Js-Portfolio/index.html",
+    "main.7c522f6b.css.map": "/React.Js-Portfolio/static/css/main.7c522f6b.css.map",
+    "main.05731178.js.map": "/React.Js-Portfolio/static/js/main.05731178.js.map",
+    "787.749b4a44.chunk.js.map": "/React.Js-Portfolio/static/js/787.749b4a44.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c522f6b.css",
+    "static/js/main.05731178.js"
+  ]
+}
